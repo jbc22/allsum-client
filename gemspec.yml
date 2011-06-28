@@ -1,0 +1,11 @@
+name: allsum-client
+summary: "TODO: Summary"
+description: "TODO: Description"
+license: MIT
+authors: jbc
+homepage: http://rubygems.org/gems/allsum-client
+
+development_dependencies:
+  ore-tasks: ~> 0.4
+  rspec: ~> 2.4
+  yard: ~> 0.7.0
