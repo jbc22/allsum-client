@@ -1,25 +1,29 @@
-= allsum-client
+# allsum-client
 
 * {Homepage}[http://rubygems.org/gems/allsum-client]
 * {Documentation}[http://rubydoc.info/gems/allsum-client/frames]
 
-== Description
+## Description
 
 TODO: Description
 
-== Features
+## Features
 
-== Examples
+## Examples
 
-  require 'allsum/client'
+``` ruby
+require 'allsum/client'
+```
 
-== Requirements
+## Requirements
 
-== Install
+## Install
 
-  $ gem install allsum-client
+``` shell
+$ gem install allsum-client
+```
 
-== Copyright
+## Copyright
 
 Copyright (c) 2011 "J. Brett Cunningham" 
 
