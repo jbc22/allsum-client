@@ -1,9 +1,14 @@
 name: allsum-client
 summary: "TODO: Summary"
 description: "TODO: Description"
-license: MIT
-authors: jbc
+license: GNUv2 
+authors: J. Brett Cunningham
 homepage: http://rubygems.org/gems/allsum-client
+
+dependencies:
+  file-find: ~> 0.0
+  datamapper: ~> 0.0
+  ffi-ssdeep: ~> 0.1.1
 
 development_dependencies:
   ore-tasks: ~> 0.4

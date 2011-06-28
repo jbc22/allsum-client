@@ -1,1 +1,2 @@
-require 'allsum/client/version'
+require './client/check'
+

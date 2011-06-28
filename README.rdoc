@@ -21,6 +21,6 @@ TODO: Description
 
 == Copyright
 
-Copyright (c) 2011 jbc
+Copyright (c) 2011 "J. Brett Cunningham" 
 
 See LICENSE.txt for details.
