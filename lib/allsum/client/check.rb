@@ -47,6 +47,8 @@ def Allsum.setup
         puts "we have a file #{path}" if @debug
   	filetype = Allsum::Client::Complicator.file_type(path)
         @includedFileTypes.each do |includeFile|
+        puts "Incl type: " + includeFile if @debug || @verbose
+        puts "File type: " + filetype if @debug || @verbose
   	  if includeFile.include?(filetype)
             puts path if @debug || @verbose
 	  end
