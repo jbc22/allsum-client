@@ -24,6 +24,10 @@ SQL Logging
 
 ## Requirements
 
+Ruby (http://rubyinstaller.org/)
+
+RubyGems (https://rubygems.org/pages/download)
+
 ## Install
 
 ``` shell
