@@ -1,0 +1,12 @@
+client:
+  included: [ 'C:\WINDOWS' ]
+  excluded: [ 'C:\WINDOWS\test1', 'C:\WINDOWS\test2' ]
+  filetypes: [ 'exe', 'dll' ]
+
+server:
+  host: 192.168.45.162
+  port: 3306
+  username: root
+  password: BumbleBeeTuna89
+  table: hashdb
+
