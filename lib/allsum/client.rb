@@ -1,2 +1,2 @@
-require './client/check'
+require 'allsum/client/check'
 

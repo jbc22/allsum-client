@@ -1,6 +1,6 @@
 require "Win32API"
 require "digest"
-require "./client/logger"
+require "allsum/client/logger"
 require "ssdeep"
 
 module Allsum

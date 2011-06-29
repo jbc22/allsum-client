@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+lib_dir = File.expand_path(File.join(File.dirname(__FILE__),'..','lib'))
+unless $LOAD_PATH.include?(lib_dir)
+  $LOAD_PATH << lib_dir
+end
+
+require 'allsum-client'
+Allsum.setup

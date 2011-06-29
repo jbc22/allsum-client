@@ -1,5 +1,5 @@
 require 'dm-migrations'
-require './client/models'
+require 'allsum/client/models'
 
 module Allsum
   module Client
