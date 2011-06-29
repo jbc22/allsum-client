@@ -51,12 +51,13 @@ def Allsum.setup
         puts "File type: " + filetype if @debug || @verbose
   	  if includeFile.include?(filetype)
             puts path if @debug || @verbose
-	  end
+
 	  Allsum::Client::Complicator.filename(path)
 	  Allsum::Client::Complicator.file_size(path)
 	  Allsum::Client::Complicator.calculate_checksums(path)
           Allsum::Client::Complicator.version_info(path)
 	  Allsum::Client::Complicator.log_to_db(path)
+      end
         end
       end
     end
