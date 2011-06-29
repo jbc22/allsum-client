@@ -3,11 +3,12 @@ summary: "Compute checksums of files and store in a database"
 description: "Compute MD5, SHA1, SHA256 and fuzzyhash (CTPH) of specified filetypes in specified directories."
 license: GPLv2
 authors: J. Brett Cunningham
+email: brettcu@gmail.com
 homepage: http://rubygems.org/gems/allsum-client
 
 dependencies:
   file-find: ~> 0.0
-  datamapper: ~> 0.0
+  datamapper: ~> 1.1.0
   ffi-ssdeep: ~> 0.1.1
 
 development_dependencies:
