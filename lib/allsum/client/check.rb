@@ -12,7 +12,9 @@ require 'yaml'
 
 
 def Allsum.setup
-  raw_config = File.read("../../allsum_config.yml")
+  yaml_path = File.absolute_path(File.dirname($0)) + '/../allsum_config.yml'
+  puts "Reading config file: #{yaml_path}" if @debug || @verbose
+  raw_config = File.read(yaml_path)
   config = YAML.load(raw_config)
 
 
