@@ -58,5 +58,4 @@ def Allsum.setup
     end
   end
 end
-end
 
