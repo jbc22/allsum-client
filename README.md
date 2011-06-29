@@ -25,6 +25,7 @@ $ gem install allsum-client
 
 ## Copyright
 
-Copyright (c) 2011 "J. Brett Cunningham" 
+Copyright (c) 2011 "J. Brett Cunningham"
 
 See LICENSE.txt for details.
+

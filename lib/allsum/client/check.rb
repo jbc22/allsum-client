@@ -10,8 +10,8 @@ require 'allsum/client/models'
 require 'allsum/client/logger'
 require 'yaml'
 
-
-def setup
+Module Allsum
+def Allsum.setup
   raw_config = File.read("../../allsum_config.yml")
   config = YAML.load(raw_config)
 
@@ -57,5 +57,6 @@ def setup
       end
     end
   end
+end
 end
 
