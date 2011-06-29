@@ -1,2 +1,2 @@
-require './client/models/filename'
+require 'allsum/client/models/filename'
 
